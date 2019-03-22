@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Tarea asignada por el profesor</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>
+				<span class="tarea">Tarea</span>
+				<button type="submit" class="btn-entrar">Entrar</button>
+				<input type="password" class="password"  name="password" placeholder="Contrase&ntilde;a" required />
+				<input type="email" class="email" name="email" placeholder="Correo electronico" required />
+			</h1>
+		</header>
+
+		<!-- Sesion con formulario -->
+		<section>
+			<form method="GET" class="form">
+				<h2 class="h2">Formulario de registro</h2>
+
+				<p>
+					<input type="text" class="input" name="name" placeholder="Nombre" required />
+				</p>
+				<p>
+					<input type="text" class="input" name="surname" placeholder="Apellidos" required />
+				</p>
+				<p>
+					<input type="email" class="input" name="email" placeholder="Correo electr&oacute;nico" required />
+				</p>
+				<p>
+					<input type="password" class="input" name="password" placeholder="Contrase&ntilde;a" required />
+				</p>
+				<p>
+					<input type="text" class="input" name="id" placeholder="Numero de Ced&uacute;la" required />
+				</p>
+				
+				<!-- Selector de sexo -->
+				<p>
+					<select class="input">
+						<option value="hombre">Hombre</option>
+						<option value="mujer">Mujer</option>
+						<option value="otro">Otro</option>
+					</select>
+				</p>
+
+				<!-- CheckBox de confirmacion de edad -->
+				<p>
+					<input class="input" type="checkbox" name="vehicle1" value="Bike"> Confirmo que tengo 18 a&ntilde;o de edad<br>
+				</p>
+				<button type="submit" class="btn-registrar">Registrar</button>
+			</form>
+		</section>
+
+		<footer>
+			<h4>Todos los derechos reservados &copy; tarea curso en tamayo</h4>
+		</footer>
+	</body>
+</html>
